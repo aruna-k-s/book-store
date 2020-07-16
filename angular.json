@@ -29,7 +29,10 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/epubjs/dist/epub.js",
+              "node_modules/epubjs/dist/epub-min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
